@@ -1,6 +1,6 @@
 export function LeftSide() {
 	return (
-		<aside className="h-full overflow-y-auto bg-red-500 rounded-xl text-black text-center text-2xl p-2 no-scrollbar">
+		<aside className="h-full overflow-y-auto bg-primary rounded-xl text-white text-center text-2xl p-2 no-scrollbar">
 			{Array(50)
 				.fill('LeftSide')
 				.map((item, i) => (
