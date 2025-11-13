@@ -21,7 +21,7 @@ function App() {
 					</div>
 				</div>
 			</div>
-			<div className="h-full bg-primary-opacity text-white flex flex-col gap-4 p-6 py-10">
+			<div className="h-full bg-primary-opacity text-white flex flex-col gap-4 p-15">
 				{TRACKS.map((item, index) => (
 					<TrackItem key={item.name} id={index + 1} track={item} />
 				))}

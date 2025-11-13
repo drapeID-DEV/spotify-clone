@@ -1,5 +1,4 @@
-import type { IArtist } from "../types/artist.types";
-import { TRACKS } from "./tracks.data";
+import type { IArtist } from "@/types/artist.types";
 
 export const ARTISTS: IArtist[] = [
     {

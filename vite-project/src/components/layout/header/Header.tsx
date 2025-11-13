@@ -1,5 +1,5 @@
-import { HomeButton } from '../../elements/homeButton/HomeButton'
-import { SearchField } from '../../searchField/SearchField'
+import { HomeButton } from '@/components/elements/homeButton/HomeButton'
+import { SearchField } from '@/components/searchField/SearchField'
 
 export function Header() {
 	return (

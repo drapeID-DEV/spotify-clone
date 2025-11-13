@@ -1,4 +1,4 @@
-import type { ITrack } from '../types/track.types';
+import type { ITrack } from '@/types/track.types';
 import { ARTISTS } from './artists.data';
 
 export const TRACKS: ITrack[] = [
@@ -54,12 +54,6 @@ export const TRACKS: ITrack[] = [
 		name: 'WeDontBelieveYou',
 		file: 'wedontbelieveyou.mp3',
 		duration: 163,
-		artist: ARTISTS[1],
-	},
-	{
-		name: 'SoftwareUpdate',
-		file: 'software_update.mp3',
-		duration: 190,
 		artist: ARTISTS[1],
 	},
 	{
